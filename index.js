@@ -26,8 +26,8 @@ const { commands, replyHandlers } = require('./command');
 const app = express();
 const port = process.env.PORT || 8000;
 
-const prefix = '.';
-const ownerNumber = ['94776121326'];
+const prefix = '?';
+const ownerNumber = ['94760388311'];
 const credsPath = path.join(__dirname, '/auth_info_baileys/creds.json');
 
 async function ensureSessionFile() {
